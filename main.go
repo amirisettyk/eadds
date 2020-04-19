@@ -68,6 +68,6 @@ func main() {
 		ptr[i] = &a[i] /* assign the address of integer. */
 	}
 	for i = 0; i < MAX; i++ {
-		fmt.Printf("Value of a[%d] = %d\n", i, *ptr[i])
+		fmt.Printf("Value of test a[%d] = %d\n", i, *ptr[i])
 	}
 }
